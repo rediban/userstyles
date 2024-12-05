@@ -1,0 +1,84 @@
+body {
+    background: #EDEBE9 !important;
+}
+
+body.dark {
+    background: #161512 !important;
+}     
+    
+/* Hide everything except clocks and usernames */
+.round__app__board,
+.round__underboard,
+.round__side,
+.round__underchat,
+.chat__members,
+.round__app .analyse__player_strip,
+.round__app .round__app__table,
+.main.puzzle,
+.cg-container,
+.site-buttons,
+.site-title-nav,
+.friend_box_title,
+.buttons,
+.rcontrols,
+.result-wrap,
+.material,
+.blind-mode,
+.zenzone,
+.analyse {
+    display: none !important;
+}
+
+rm6 {
+    display: none !important;
+}
+
+@media (min-width: 800px), (orientation: landscape) {
+  .round__app {
+    grid-template-columns: minmax(calc(70vmin * var(---board-scale)), calc(100vh * var(---board-scale) - calc(var(---site-header-height) + var(---site-header-margin)) - 3rem)) minmax(240px, 400px);
+    grid-template-rows: 30px 1fr auto min-content auto auto min-content auto 1fr 30px;
+    grid-template-areas: 'user-top .' 'board .' 'board mat-top'  'board expi-top'  'board moves'  'board controls'  'board expi-bot'  'board mat-bot' 'board .'  'user-bot .'  'kb-move .';
+    margin-top: .2em;
+  }
+  .rclock-top,
+  .ruser-top {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .rclock-bottom,
+  .ruser-bottom {
+    grid-area: 2 / 1 / 2 / 2;
+    margin-top: 25px; /* Added margin-top to move it down */
+  }
+
+  .rclock-top,
+  .rclock-bottom {
+     transform: translateX(-375px); /* Moves the clocks 50px to the left */
+  }
+    
+  .rclock {
+    justify-self: flex-end;
+  }
+    
+  .rclock .bar,
+  .rclock .tour-rank,
+  .rclock .moretime,
+  .rclock .berserked {
+    display: none;
+  }
+  .rclock .time {
+    font-size: 1.7em !important;
+    line-height: 30px;
+    background: none;
+  }
+  .ruser {
+    font-size: 1.4em ;
+    padding: 0 .3em;
+    line-height: 30px;
+  }
+  .ruser a {
+    flex: none;
+  }
+
+}
+
+}
