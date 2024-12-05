@@ -11,8 +11,9 @@ Originally from ornicar.
 
 Additionally you can change the background color by replacing the hexadecimal number in the code.
 
-EXAMPLE BLUE BACKGROUD COLOR:
+## EXAMPLE BLUE BACKGROUD COLOR:
 
+```
 "body {
     background: #131e61 !important;
 }
@@ -20,3 +21,4 @@ EXAMPLE BLUE BACKGROUD COLOR:
 body.dark {
     background: #131e61 !important;
 }"
+```
