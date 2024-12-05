@@ -5,7 +5,7 @@ Originally from ornicar.
 ## Usage
 
 1. Add a Browser Source in OBS. https://github.com/openstyles/stylus#releases
-2. Set the URL to the player (YOURSELF for example) you want to follow: https://lichess.org/@/YOURUSERNAME/tv
+2. Set the URL to the player (YOURSELF for example) you want to follow: https://lichess.org/@/[WRITEHEREYOURUSERNAME]/tv
 3. Insert Custom CSS
 4. Click `OK`
 
