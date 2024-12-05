@@ -14,11 +14,11 @@ Additionally you can change the background color by replacing the hexadecimal nu
 ## EXAMPLE BLUE BACKGROUD COLOR:
 
 ```
-"body {
+body {
     background: #131e61 !important;
 }
 
 body.dark {
     background: #131e61 !important;
-}"
+}
 ```
