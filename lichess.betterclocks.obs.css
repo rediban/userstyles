@@ -52,7 +52,7 @@ rm6 {
 
   .rclock-top,
   .rclock-bottom {
-     transform: translateX(-375px); /* Moves the clocks 50px to the left */
+     transform: translateX(-375px); /* Moves the clocks to the left */
   }
     
   .rclock {
