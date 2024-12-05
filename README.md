@@ -1,12 +1,22 @@
-# Lichess userstyles
+# Lichess userstyle for OBS (better clocks for streaming)
 
-Also see: https://lichess.org/page/extend
+Originally from ornicar.
 
 ## Usage
 
-1. Install stylus in your browser: https://github.com/openstyles/stylus#releases
-2. Open one of the `.user.css` files in this repository, for example https://github.com/ornicar/userstyles/blob/master/lichess.streamer.user.css
-3. Click the `Raw` button
-4. Click `Install style`
+1. Add a Browser Source in OBS. https://github.com/openstyles/stylus#releases
+2. Set the URL to the player (YOURSELF for example) you want to follow: https://lichess.org/@/YOURUSERNAME/tv
+3. Insert Custom CSS
+4. Click `OK`
 
-You can then managed the enabled styles from the stylus extension icon in your browser.
+Additionally you can change the background color by replacing the hexadecimal number in the code.
+
+EXAMPLE BLUE BACKGROUD COLOR:
+
+"body {
+    background: #131e61 !important;
+}
+
+body.dark {
+    background: #131e61 !important;
+}"
