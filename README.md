@@ -2,7 +2,7 @@
 
 Originally from ornicar. Remove everything but the clocks and usernames in lichess for a better and more consistent streaming layout.
 
-[Example image of how it could look in OBS](https://i.imgur.com/6DhlZCK.png)
+![Example image of how it could look in OBS](https://i.imgur.com/6DhlZCK.png)
 
 ## Usage
 
@@ -12,7 +12,7 @@ Originally from ornicar. Remove everything but the clocks and usernames in liche
 4. Click `OK`
 5. Crop the browser source as you like in order to just capture the clocks. Example:
 
-[Browser Source in OBS](https://i.imgur.com/8S9p7lx.png)
+![Browser Source in OBS](https://i.imgur.com/8S9p7lx.png)
 
 Additionally you can change the background color by replacing the hexadecimal number in the code.
 
