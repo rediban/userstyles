@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Lichess Streamer Layout [ONLY CLOCKS FOR OBS]
 @namespace      github.com/rediban/userstyles
-@homepageURL    https://raw.githubusercontent.com/rediban/userstyles/master/lichess.streamer.user.css
+@homepageURL    https://raw.github.com/rediban/userstyles/blob/master/lichess.betterclocks.styluschecking.css
 @version        1.0
 @description    On lichess.org games, removes everything but the clocks for better capture
 @author         rediban has no idea what he is doing he just stole the code from ornicars github and changed it. Blame rediban if you are angry and thank ornicar if you are somehow happy with the result.
@@ -63,7 +63,7 @@ rm6 {
 
   .rclock-top,
   .rclock-bottom {
-     transform: translateX(-375px); /* Moves the clocks 50px to the left */
+     transform: translateX(-375px); /* Moves the clocks to the left */
   }
     
   .rclock {
